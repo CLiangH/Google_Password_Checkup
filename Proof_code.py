@@ -41,7 +41,7 @@ def Client1(u,p,a):
 
 def Server(k,v,b):
     SJK=[]
-    for i in range(10000,10000+pow(2,16)):
+    for i in range(10000,10000+pow(2,8)):
         text=SM3.SM3_test(str(i)+str(i))
         SJK.append(text)
     vi=[]
